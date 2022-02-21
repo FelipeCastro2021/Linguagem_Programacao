@@ -6,7 +6,7 @@ package Estruturas_Condicionais;
 
 import javax.swing.JOptionPane;
 
-public class Ex03_Equacao2Grau {
+public class Ex20_Equacao2Grau {
     public static void main(String[] args) {
         double a, b, c, x1, x2;
         

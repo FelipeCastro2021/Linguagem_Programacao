@@ -4,7 +4,7 @@
 
 import javax.swing.JOptionPane;
 
-public class Ex17_GastoCombustível_Viagem {
+public class Ex17_GastoCombust�vel_Viagem {
     public static void main(String[] args) {
         int tempoPercurso = Integer.parseInt(JOptionPane.showInputDialog("Insira o tempo de percurso(H): "));
         double velocMedia = Double.parseDouble(JOptionPane.showInputDialog("Informe a velocidade média(Km): "));

@@ -6,7 +6,7 @@ package Estruturas_Condicionais;
 
 import javax.swing.JOptionPane;
 
-public class Ex05_OrdemCrescente {
+public class Ex22_OrdemCrescente {
     public static void main(String[] args) {
         int valor1 = Integer.parseInt(JOptionPane.showInputDialog("Insira o primeiro valor: "));
         int valor2 = Integer.parseInt(JOptionPane.showInputDialog("Insira o segundo valor: "));

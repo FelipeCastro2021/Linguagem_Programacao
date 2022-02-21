@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
  * @author Felipe Castro Ferreira
  */
 
-public class Ex07_ParalelepÃ­pido {
+public class Ex07_Paralelepípido {
     public static void main(String[] args) {
         double comprimento, altura, largura;
         

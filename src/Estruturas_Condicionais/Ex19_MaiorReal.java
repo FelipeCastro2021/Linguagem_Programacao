@@ -6,7 +6,7 @@ package Estruturas_Condicionais;
 
 import javax.swing.JOptionPane;
 
-public class Ex02_MaiorReal {
+public class Ex19_MaiorReal {
     public static void main(String[] args) {
         double valor1 = Double.parseDouble(JOptionPane.showInputDialog("Informe o primeiro valor real: "));
         double valor2 = Double.parseDouble(JOptionPane.showInputDialog("Informe o segundo valor real: "));

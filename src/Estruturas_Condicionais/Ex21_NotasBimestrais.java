@@ -6,7 +6,7 @@ package Estruturas_Condicionais;
 
 import javax.swing.JOptionPane;
 
-public class Ex04_NotasBimestrais {
+public class Ex21_NotasBimestrais {
     public static void main(String[] args) {
         double nota1 = Double.parseDouble(JOptionPane.showInputDialog("Insira a primeira nota: "));
         double nota2 = Double.parseDouble(JOptionPane.showInputDialog("Insira a segunda nota: "));
