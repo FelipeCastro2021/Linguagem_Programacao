@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 public class Ex38_MaiorMenor {
 	public static void main(String[] args) {
-		int[] numeros = new int[10];
+		int[] numeros = new int[100];
 		int maior = 0, menor = 0;
 		
 		for (int i = 0; i < numeros.length; i++) {
