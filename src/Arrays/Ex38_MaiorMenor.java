@@ -10,9 +10,11 @@ public class Ex38_MaiorMenor {
 		for (int i = 0; i < numeros.length; i++) {
 			numeros[i] = Integer.parseInt(JOptionPane.showInputDialog("Digite um número: "));
 			
-			maior = numeros[0];
-			menor = numeros[0];
-			
+			if (i == 0) {
+				maior = numeros[0];
+				menor = numeros[0];
+			}
+
 			if (numeros[i] > maior) {
 				maior = numeros[i];
 			}
