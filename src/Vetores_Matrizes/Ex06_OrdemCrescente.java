@@ -17,7 +17,7 @@ public class Ex06_OrdemCrescente {
 		}
 	}
 
-	private static void gerarVetor(double[] aleatorios) {
+	public static void gerarVetor(double[] aleatorios) {
 		for (int i = 0; i < aleatorios.length; i++) {
 			aleatorios[i] = Double.parseDouble(JOptionPane.showInputDialog("Insira um valor aleatório: "));
 			
@@ -25,7 +25,7 @@ public class Ex06_OrdemCrescente {
 		}
 	}
 
-	private static void ordenarVetor(double[] aleatorios, int i) {
+	public static void ordenarVetor(double[] aleatorios, int i) {
 		double aux;
 		
 		for (int j = 0; j <= i; j++) {
