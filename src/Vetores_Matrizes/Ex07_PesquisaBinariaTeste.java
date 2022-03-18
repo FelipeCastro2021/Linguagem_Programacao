@@ -44,16 +44,7 @@ public class Ex07_PesquisaBinaria {
 		}
 	}
 	
-	static double pesquisaBinaria(double valorAleatorio, double[] aleatorios) {				
-		do {
-			int i = aleatorios.length / 2;
-			
-			if (aleatorios[i] > valorAleatorio) {
-				i 
-			}
-		} while(valorAleatorio != aleatorios[i]);
-
-		
+	static double pesquisaBinaria(double valorAleatorio, double[] aleatorios) {						
 		return valorAleatorio;
 	}
 }
