@@ -45,13 +45,26 @@ public class Ex07_PesquisaBinaria {
 	}
 	
 	static double pesquisaBinaria(double valorAleatorio, double[] aleatorios) {				
-		do {
-			int i = aleatorios.length / 2;
+		int inicio = 0, meio = 0, fim = aleatorios.length - 1;
+		
+		while (inicio <= fim) {
+			meio = (fim + inicio) / 2;
 			
-			if (aleatorios[i] > valorAleatorio) {
-				i 
+			if (aleatorios[meio] == valorAleatorio) {
+				System.out.println("Valor encontrado: " + aleatorios[meio]);
+				break;
 			}
-		} while(valorAleatorio != aleatorios[i]);
+			
+			if (aleatorios[meio] < valorAleatorio) {
+				inicio = meio + 1;
+			} else {
+				fim = meio - 1;
+			}
+			
+			if (inicio > fim) {
+				System.out.println("Número " + valorAleatorio + " não foi encontrado");
+			}
+		}
 
 		
 		return valorAleatorio;
