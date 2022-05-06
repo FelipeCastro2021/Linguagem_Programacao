@@ -2,6 +2,10 @@ package Class;
 
 import javax.swing.JOptionPane;
 
+/*
+ * @Author: Felipe Castro Ferreira
+ * */
+
 public class ClasseMetodos {
 	public Estatistica[] FCadastrarEstatistica(Estatistica[] transito) {
 		for (int i = 0; i < transito.length; i++) {
