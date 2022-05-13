@@ -91,7 +91,7 @@ public class ClasseMetodos {
 			media += transito[i].qtdAcidentes;
 		}
 		
-		media = media / (transito.length - 1);
+		media = media / (transito.length);
 		
 		for (int i = 0; i < transito.length; i++) {
 			if (transito[i].qtdAcidentes > media) {
