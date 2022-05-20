@@ -8,8 +8,8 @@ import javax.swing.JOptionPane;
 import java.io.*;
 
 public class MenuPrincipal {
-	public static void main(String[] args) {
-		Votacao[] vota = new Votacao[2];
+	public static void main(String[] args) throws IOException {
+		Votacao[] votos = new Votacao[100];
 		Metodos metodo = new Metodos();
 		
 		int opc = 0;
@@ -27,10 +27,13 @@ public class MenuPrincipal {
 			switch (opc) 
 			{
 			case 1:
+				votos = metodo.FCadastrarVotacao(votos);
 				break;
 			case 2:
+				metodo.Fclassificacao(votos);
 				break;
 			case 3:
+				metodo.FGravaVotacao(votos);
 				break;
 			case 4:
 				int indicadores = 0;
@@ -49,11 +52,13 @@ public class MenuPrincipal {
 					switch (indicadores) 
 					{
 					case 1:
-						
+						metodo.FEleitoresSecao(votos);
 						break;
 					case 2:
+						metodo.maiorMenorSecao();
 						break;
 					case 3:
+						metodo.quantVotosCandidato(votos);
 						break;
 					case 4:
 						break;
